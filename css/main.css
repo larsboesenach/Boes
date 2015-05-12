@@ -68,6 +68,60 @@ a {
     .Top-navigation .Logo-wrap a:hover {
       opacity: 0.7; }
 
+.header-container {
+  padding: 5%;
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100%; }
+
+.header-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #1D1F1E;
+  background: #204952;
+  background: -moz-linear-gradient(top, #204952 0%, #212322 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #204952), color-stop(100%, #212322));
+  background: -webkit-linear-gradient(top, #204952 0%, #212322 100%);
+  background: -o-linear-gradient(top, #204952 0%, #212322 100%);
+  background: -ms-linear-gradient(top, #204952 0%, #212322 100%);
+  background: linear-gradient(to bottom, #204952 0%, #212322 100%); }
+
+.vertical-align {
+  display: block;
+  text-align: center;
+  font-size: 0;
+  height: 100%; }
+
+.vertical-align:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 5px; }
+
+.header-text {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 2;
+  opacity: 0;
+  margin-top: -20px; }
+
+.header-underline {
+  display: block;
+  width: 90%;
+  height: 1vw;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  z-index: 2;
+  margin-top: 1%; }
+
+.header-subtext {
+  margin-top: 3%; }
+
+/*triangles */
 html, body {
   height: 100%; }
 
