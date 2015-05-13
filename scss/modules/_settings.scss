@@ -48,3 +48,17 @@ a {
 	outline: none;
 }
 
+
+///////////////////////////////////////
+// Browser specefic adjustments
+// Safari only
+@media screen and (min-width:0\0) {}
+
+// Firefox only
+@media screen and (min--moz-device-pixel-ratio:0) {}
+
+// Google only
+@media screen and (-webkit-min-device-pixel-ratio:0) {}
+
+///////////////////////////////////////
+
