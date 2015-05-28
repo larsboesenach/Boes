@@ -28,7 +28,10 @@
 		<div class="vertical-align">
 			<div class="blck-bg"></div>
 
-			
+			<div class="intro-text">
+				<h2>Hi there!</h2>
+
+			</div>
 
 
 		</div><!-- vertical align -->
